@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>SARTopoKMLConverter</class>
- <widget class="QMainWindow" name="SARTopoKMLConverter">
+ <class>SRT2KMLConverter</class>
+ <widget class="QMainWindow" name="SRT2KMLConverter">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>SARTopoKMLConveter</string>
+   <string>SRT/KML Converter</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -105,7 +105,7 @@
           </font>
          </property>
          <property name="text">
-          <string>SARTopo KML Converter</string>
+          <string>SRT/KML Converter</string>
          </property>
         </widget>
        </item>
@@ -244,7 +244,7 @@
              <number>1</number>
             </property>
             <property name="text">
-             <string>Source Folder:</string>
+             <string>Source File:</string>
             </property>
            </widget>
           </item>
@@ -451,7 +451,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>DJI</string>
+                <string>KML</string>
                </property>
               </widget>
              </item>
@@ -508,7 +508,7 @@
                 </size>
                </property>
                <property name="text">
-                <string>JSON</string>
+                <string>GeoJSON</string>
                </property>
               </widget>
              </item>
@@ -548,6 +548,12 @@
           </property>
           <item>
            <widget class="QProgressBar" name="progressBar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -563,8 +569,20 @@
             <property name="value">
              <number>0</number>
             </property>
+            <property name="alignment">
+             <set>Qt::AlignHCenter|Qt::AlignTop</set>
+            </property>
             <property name="textVisible">
              <bool>true</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="textDirection">
+             <enum>QProgressBar::BottomToTop</enum>
             </property>
             <property name="format">
              <string>%p%   </string>

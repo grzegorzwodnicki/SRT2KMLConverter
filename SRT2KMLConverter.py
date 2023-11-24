@@ -2,19 +2,19 @@ from PySide2.QtWidgets import QFileDialog, QApplication, QMainWindow
 from PySide2.QtCore import Qt
 import sys
 from classes.application import ConverterApplication
-from ui.SARTopoKMLConverter import Ui_SARTopoKMLConverter
+from ui.SRT2KMLConverter import Ui_SRT2KMLConverter
 import time
 import os
 from classes.settings import SettingsClass
 
-class SARTopoKMLConverterWindow(QMainWindow):
+class SRT2KMLConverter(QMainWindow):
 
-    errors = None
+    
 
     def __init__(self, parent=None):
         QMainWindow.__init__(self, parent)
         #self.converter = SARTopoConverter()
-        self.ui = Ui_SARTopoKMLConverter()
+        self.ui = Ui_SRT2KMLConverter()
         self.ui.setupUi(self)
         self.setWindowFlag(Qt.FramelessWindowHint, True)
         self.setAttribute(Qt.WA_TranslucentBackground)
@@ -35,7 +35,7 @@ class SARTopoKMLConverterWindow(QMainWindow):
         
         self.ui.btnStart.clicked.connect(self.start)
         self.ui.btnClose.clicked.connect(self.close)
-        self.show()
+ 
     def chooseSource(self):
         last_open_dir = os.path.dirname(self.ui.txtOutputFile.text())
         if not os.path.exists(last_open_dir):
@@ -118,8 +118,9 @@ class SARTopoKMLConverterWindow(QMainWindow):
 
 
 if __name__ == '__main__':
-    app = ConverterApplication([])
-    w = SARTopoKMLConverterWindow()
+    app = ConverterApplication(sys.argv)
+    w = SRT2KMLConverter()
+    w.show()
     sys.exit(app.exec_())
 
     
