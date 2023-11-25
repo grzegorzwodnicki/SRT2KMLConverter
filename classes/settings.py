@@ -1,5 +1,5 @@
 import configparser
-
+from constants import *
 
 class SettingsClass:
    
@@ -12,7 +12,7 @@ class SettingsClass:
         #settings list, name must start with config_
         self.config_input_path =''
         self.config_output_path =''
-        self.config_filetype = 'KML'
+        self.config_filetype = DRONE_FORMAT_KML
 
 
         #get config list from class atributes

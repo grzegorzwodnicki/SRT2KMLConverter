@@ -437,7 +437,7 @@
               <number>0</number>
              </property>
              <item>
-              <widget class="QCheckBox" name="btnDJI">
+              <widget class="QCheckBox" name="btnKML">
                <property name="minimumSize">
                 <size>
                  <width>84</width>
@@ -497,7 +497,7 @@
               <widget class="QCheckBox" name="btnJSON">
                <property name="minimumSize">
                 <size>
-                 <width>84</width>
+                 <width>120</width>
                  <height>36</height>
                 </size>
                </property>
@@ -549,7 +549,7 @@
           <item>
            <widget class="QProgressBar" name="progressBar">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -570,7 +570,7 @@
              <number>0</number>
             </property>
             <property name="alignment">
-             <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
             </property>
             <property name="textVisible">
              <bool>true</bool>
@@ -582,7 +582,7 @@
              <bool>false</bool>
             </property>
             <property name="textDirection">
-             <enum>QProgressBar::BottomToTop</enum>
+             <enum>QProgressBar::TopToBottom</enum>
             </property>
             <property name="format">
              <string>%p%   </string>

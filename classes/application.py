@@ -4,13 +4,24 @@ from PySide2.QtCore import QDir, QPoint, Qt, QRect
 import os
 import sys
 from constants import *
+import winreg
+
+def load_fonts_from_dir(directory):
+    families = set()
+    for fi in QDir(directory).entryInfoList(["*.ttf"]):
+        _id = QFontDatabase.addApplicationFont(fi.absoluteFilePath())
+        print(_id)
+        families |= set(QFontDatabase.applicationFontFamilies(_id))
+    return families
+
+
 
 class ConverterApplication(QApplication):
     resolution = RES_DESKTOP
     icon_path = LOGO_PATH
     g2_stylesheet = ''
     scale_factor = 1.0
-    
+  
     def __init__(self, *args, **kwargs):
         QApplication.__init__(self, *args, **kwargs)
         QApplication.setWindowIcon(QIcon(self.icon_path))
@@ -18,6 +29,7 @@ class ConverterApplication(QApplication):
         self.setG2StyleSheet()
 
     def setG2StyleSheet(self):
+        
         general_font_size = round(14 * self.scale_factor)
         label_font_size = round(16 * self.scale_factor)
         gray_label_font_size = round(12 * self.scale_factor)

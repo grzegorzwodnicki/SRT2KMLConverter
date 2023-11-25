@@ -1,60 +1,81 @@
 from PySide2.QtWidgets import QFileDialog, QApplication, QMainWindow
 from PySide2.QtCore import Qt
 import sys
-from classes.application import ConverterApplication
+from classes.Application import ConverterApplication
 from ui.SRT2KMLConverter import Ui_SRT2KMLConverter
 import time
 import os
-from classes.settings import SettingsClass
-
+from classes.Settings import SettingsClass
+from constants import *
+from classes.ConverterEngine import SRT2KMLConverterEngine
 class SRT2KMLConverter(QMainWindow):
 
     
 
     def __init__(self, parent=None):
         QMainWindow.__init__(self, parent)
-        #self.converter = SARTopoConverter()
+        self.converter = SRT2KMLConverterEngine()
         self.ui = Ui_SRT2KMLConverter()
         self.ui.setupUi(self)
         self.setWindowFlag(Qt.FramelessWindowHint, True)
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.config = SettingsClass(os.path.join(os.path.dirname(__file__),'config.ini'))
+        self.loadSettings()
         
         self.ui.btnChooseSource.clicked.connect(self.chooseSource)
         self.ui.btnChooseOutput.clicked.connect(self.chooseOutput)
-        #self.buttons_extensions_dict = {
-        #    self.ui.btnDJI:DRONE_FORMAT_DJI,
-        #    self.ui.btnKMZ:DRONE_FORMAT_KMZ,
-        #    self.ui.btnGPX:DRONE_FORMAT_GPX,
-        #    self.ui.btnJSON:DRONE_FORMAT_JSON
-        #    }
-        #self.extensions_buttons_dict = {v: k for k, v in self.buttons_extensions_dict.items()}
-        #for button in self.buttons_extensions_dict:
-        #    button.clicked.connect(self.changeOutputFileExtension)
-        #self.loadSettings()
+        self.buttons_extensions_dict = {
+            self.ui.btnKML:DRONE_FORMAT_KML,
+            self.ui.btnKMZ:DRONE_FORMAT_KMZ,
+            self.ui.btnGPX:DRONE_FORMAT_GPX,
+            self.ui.btnJSON:DRONE_FORMAT_JSON
+            }
+        self.extensions_buttons_dict = {v: k for k, v in self.buttons_extensions_dict.items()}
+        for button in self.buttons_extensions_dict:
+            button.clicked.connect(self.changeOutputFileExtension)
+        
         
         self.ui.btnStart.clicked.connect(self.start)
         self.ui.btnClose.clicked.connect(self.close)
- 
+    def loadSettings(self):        
+        self.ui.btnKML.setChecked(self.config.config_filetype == DRONE_FORMAT_KML)
+        self.ui.btnKMZ.setChecked(self.config.config_filetype == DRONE_FORMAT_KMZ)
+        self.ui.btnGPX.setChecked(self.config.config_filetype == DRONE_FORMAT_GPX)
+        self.ui.btnJSON.setChecked(self.config.config_filetype == DRONE_FORMAT_JSON)
+
+    def changeOutputFileExtension(self):
+        for btn in self.buttons_extensions_dict:
+            if btn == self.sender():
+                output_format = self.buttons_extensions_dict[btn]
+            else:
+                btn.setChecked(False)
+        output_file = self.ui.txtOutputFile.text()
+        if not output_file:
+            return
+        filename, current_ext = os.path.splitext(output_file)
+        new_output_file = filename + '.' + output_format
+        self.ui.txtOutputFile.setText(new_output_file)
+
+
     def chooseSource(self):
-        last_open_dir = os.path.dirname(self.ui.txtOutputFile.text())
+        last_open_dir = self.ui.txtOutputFile.text()
         if not os.path.exists(last_open_dir):
             last_open_dir = self.config.config_input_path
-        #output_format = self.getOutputFormat()
-        QFileDialog.getExistingDirectory(self,'')
-        #output_file, mask = QFileDialog.getSaveFileName(self,
-        #     self.tr("Choose saving destination").format(output_format.upper()),
-        #     os.path.join(last_open_dir, self.tr('Locations')+'.'+output_format),
-        #     "{} "+self.tr("files")+" (*.{})".format(output_format.upper(), output_format))
-        #if output_file:
-        #    self.ui.txtOutputFile.setText(output_file)
+
+        QFileDialog.getOpenFileName(self,'')
+        input_file, mask = QFileDialog.getSaveFileName(self,
+             self.tr("Choose saving destination").format("SRT"),
+             os.path.join(last_open_dir, self.tr('Locations')+'.'+'srt'),
+             "{} "+self.tr("files")+" (*.srt)")
+        if input_file:
+            self.ui.txtOutputFile.setText(input_file)
 
     def chooseOutput(self):
         last_open_dir = os.path.dirname(self.ui.txtOutputFile.text())
         if not os.path.exists(last_open_dir):
             last_open_dir = self.config.config_input_path
         #output_format = self.getOutputFormat()
-        QFileDialog.getExistingDirectory(self,'')
+        QFileDialog.getOpenFileName(self,'')
         #output_file, mask = QFileDialog.getSaveFileName(self,
         #     self.tr("Choose saving destination").format(output_format.upper()),
         #     os.path.join(last_open_dir, self.tr('Locations')+'.'+output_format),
