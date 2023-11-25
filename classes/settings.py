@@ -30,7 +30,7 @@ class SettingsClass:
                     self.__setattr__(s, self.__configClass[self.__section][s])
         
 
-    def write_file(self):
+    def write_config(self):
         if self.__section not in self.__configClass:
             self.__configClass[self.__section] = {}
         for sf in self.__settingsList:
