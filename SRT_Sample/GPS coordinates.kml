@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>DJI_20230919231119_0001_S_00m00.934s.JPG</name>
+            <Point id="2">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>DJI_20230919231119_0001_S_00m01.868s.JPG</name>
+            <Point id="4">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>DJI_20230919231119_0001_S_00m02.802s.JPG</name>
+            <Point id="6">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>DJI_20230919231119_0001_S_00m03.737s.JPG</name>
+            <Point id="8">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>DJI_20230919231119_0001_S_00m04.671s.JPG</name>
+            <Point id="10">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>DJI_20230919231119_0001_S_00m05.605s.JPG</name>
+            <Point id="12">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>DJI_20230919231119_0001_S_00m06.539s.JPG</name>
+            <Point id="14">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>DJI_20230919231119_0001_S_00m07.474s.JPG</name>
+            <Point id="16">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>DJI_20230919231119_0001_S_00m08.408s.JPG</name>
+            <Point id="18">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>DJI_20230919231119_0001_S_00m09.342s.JPG</name>
+            <Point id="20">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>DJI_20230919231119_0001_S_00m10.276s.JPG</name>
+            <Point id="22">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="25">
+            <name>DJI_20230919231119_0001_S_00m11.211s.JPG</name>
+            <Point id="24">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>DJI_20230919231119_0001_S_00m12.145s.JPG</name>
+            <Point id="26">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>DJI_20230919231119_0001_S_00m13.079s.JPG</name>
+            <Point id="28">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>DJI_20230919231119_0001_S_00m14.014s.JPG</name>
+            <Point id="30">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="33">
+            <name>DJI_20230919231119_0001_S_00m14.948s.JPG</name>
+            <Point id="32">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>DJI_20230919231119_0001_S_00m15.882s.JPG</name>
+            <Point id="34">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>DJI_20230919231119_0001_S_00m16.816s.JPG</name>
+            <Point id="36">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>DJI_20230919231119_0001_S_00m17.751s.JPG</name>
+            <Point id="38">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="41">
+            <name>DJI_20230919231119_0001_S_00m18.685s.JPG</name>
+            <Point id="40">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>DJI_20230919231119_0001_S_00m19.619s.JPG</name>
+            <Point id="42">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="45">
+            <name>DJI_20230919231119_0001_S_00m20.553s.JPG</name>
+            <Point id="44">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="47">
+            <name>DJI_20230919231119_0001_S_00m21.488s.JPG</name>
+            <Point id="46">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="49">
+            <name>DJI_20230919231119_0001_S_00m22.422s.JPG</name>
+            <Point id="48">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="51">
+            <name>DJI_20230919231119_0001_S_00m23.356s.JPG</name>
+            <Point id="50">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="53">
+            <name>DJI_20230919231119_0001_S_00m24.290s.JPG</name>
+            <Point id="52">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="55">
+            <name>DJI_20230919231119_0001_S_00m25.225s.JPG</name>
+            <Point id="54">
+                <coordinates>-104.756661,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="57">
+            <name>DJI_20230919231119_0001_S_00m26.159s.JPG</name>
+            <Point id="56">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="59">
+            <name>DJI_20230919231119_0001_S_00m27.093s.JPG</name>
+            <Point id="58">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="61">
+            <name>DJI_20230919231119_0001_S_00m28.028s.JPG</name>
+            <Point id="60">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="63">
+            <name>DJI_20230919231119_0001_S_00m28.962s.JPG</name>
+            <Point id="62">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="65">
+            <name>DJI_20230919231119_0001_S_00m29.896s.JPG</name>
+            <Point id="64">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="67">
+            <name>DJI_20230919231119_0001_S_00m30.830s.JPG</name>
+            <Point id="66">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="69">
+            <name>DJI_20230919231119_0001_S_00m31.765s.JPG</name>
+            <Point id="68">
+                <coordinates>-104.756661,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="71">
+            <name>DJI_20230919231119_0001_S_00m32.699s.JPG</name>
+            <Point id="70">
+                <coordinates>-104.756661,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="73">
+            <name>DJI_20230919231119_0001_S_00m33.633s.JPG</name>
+            <Point id="72">
+                <coordinates>-104.756661,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="75">
+            <name>DJI_20230919231119_0001_S_00m34.567s.JPG</name>
+            <Point id="74">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="77">
+            <name>DJI_20230919231119_0001_S_00m35.502s.JPG</name>
+            <Point id="76">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="79">
+            <name>DJI_20230919231119_0001_S_00m36.436s.JPG</name>
+            <Point id="78">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="81">
+            <name>DJI_20230919231119_0001_S_00m37.370s.JPG</name>
+            <Point id="80">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="83">
+            <name>DJI_20230919231119_0001_S_00m38.304s.JPG</name>
+            <Point id="82">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="85">
+            <name>DJI_20230919231119_0001_S_00m39.239s.JPG</name>
+            <Point id="84">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="87">
+            <name>DJI_20230919231119_0001_S_00m40.173s.JPG</name>
+            <Point id="86">
+                <coordinates>-104.756661,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="89">
+            <name>DJI_20230919231119_0001_S_00m41.107s.JPG</name>
+            <Point id="88">
+                <coordinates>-104.75666,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="91">
+            <name>DJI_20230919231119_0001_S_00m42.042s.JPG</name>
+            <Point id="90">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="93">
+            <name>DJI_20230919231119_0001_S_00m42.976s.JPG</name>
+            <Point id="92">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="95">
+            <name>DJI_20230919231119_0001_S_00m43.910s.JPG</name>
+            <Point id="94">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="97">
+            <name>DJI_20230919231119_0001_S_00m44.844s.JPG</name>
+            <Point id="96">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="99">
+            <name>DJI_20230919231119_0001_S_00m45.779s.JPG</name>
+            <Point id="98">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="101">
+            <name>DJI_20230919231119_0001_S_00m46.713s.JPG</name>
+            <Point id="100">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="103">
+            <name>DJI_20230919231119_0001_S_00m47.647s.JPG</name>
+            <Point id="102">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="105">
+            <name>DJI_20230919231119_0001_S_00m48.581s.JPG</name>
+            <Point id="104">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="107">
+            <name>DJI_20230919231119_0001_S_00m49.516s.JPG</name>
+            <Point id="106">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="109">
+            <name>DJI_20230919231119_0001_S_00m50.450s.JPG</name>
+            <Point id="108">
+                <coordinates>-104.756661,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="111">
+            <name>DJI_20230919231119_0001_S_00m51.384s.JPG</name>
+            <Point id="110">
+                <coordinates>-104.756661,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="113">
+            <name>DJI_20230919231119_0001_S_00m52.318s.JPG</name>
+            <Point id="112">
+                <coordinates>-104.75666,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="115">
+            <name>DJI_20230919231119_0001_S_00m53.253s.JPG</name>
+            <Point id="114">
+                <coordinates>-104.756661,39.519961,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="117">
+            <name>DJI_20230919231119_0001_S_00m54.187s.JPG</name>
+            <Point id="116">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="119">
+            <name>DJI_20230919231119_0001_S_00m55.121s.JPG</name>
+            <Point id="118">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="121">
+            <name>DJI_20230919231119_0001_S_00m56.056s.JPG</name>
+            <Point id="120">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="123">
+            <name>DJI_20230919231119_0001_S_00m56.990s.JPG</name>
+            <Point id="122">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="125">
+            <name>DJI_20230919231119_0001_S_00m57.924s.JPG</name>
+            <Point id="124">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="127">
+            <name>DJI_20230919231119_0001_S_00m58.858s.JPG</name>
+            <Point id="126">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="129">
+            <name>DJI_20230919231119_0001_S_00m59.793s.JPG</name>
+            <Point id="128">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="131">
+            <name>DJI_20230919231119_0001_S_01m00.727s.JPG</name>
+            <Point id="130">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="133">
+            <name>DJI_20230919231119_0001_S_01m01.661s.JPG</name>
+            <Point id="132">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="135">
+            <name>DJI_20230919231119_0001_S_01m02.595s.JPG</name>
+            <Point id="134">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="137">
+            <name>DJI_20230919231119_0001_S_01m03.530s.JPG</name>
+            <Point id="136">
+                <coordinates>-104.756661,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="139">
+            <name>DJI_20230919231119_0001_S_01m04.464s.JPG</name>
+            <Point id="138">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="141">
+            <name>DJI_20230919231119_0001_S_01m05.398s.JPG</name>
+            <Point id="140">
+                <coordinates>-104.756659,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="143">
+            <name>DJI_20230919231119_0001_S_01m06.332s.JPG</name>
+            <Point id="142">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="145">
+            <name>DJI_20230919231119_0001_S_01m07.267s.JPG</name>
+            <Point id="144">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="147">
+            <name>DJI_20230919231119_0001_S_01m08.201s.JPG</name>
+            <Point id="146">
+                <coordinates>-104.75666,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="149">
+            <name>DJI_20230919231119_0001_S_01m09.135s.JPG</name>
+            <Point id="148">
+                <coordinates>-104.756659,39.51996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="151">
+            <name>DJI_20230919231119_0001_S_01m10.070s.JPG</name>
+            <Point id="150">
+                <coordinates>-104.756658,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="153">
+            <name>DJI_20230919231119_0001_S_01m11.004s.JPG</name>
+            <Point id="152">
+                <coordinates>-104.756658,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="155">
+            <name>DJI_20230919231119_0001_S_01m11.938s.JPG</name>
+            <Point id="154">
+                <coordinates>-104.756659,39.519959,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="157">
+            <name>DJI_20230919231119_0001_S_01m12.872s.JPG</name>
+            <Point id="156">
+                <coordinates>-104.756659,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="159">
+            <name>DJI_20230919231119_0001_S_01m13.807s.JPG</name>
+            <Point id="158">
+                <coordinates>-104.75666,39.519958,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="161">
+            <name>DJI_20230919231119_0001_S_01m14.741s.JPG</name>
+            <Point id="160">
+                <coordinates>-104.756661,39.519966,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="163">
+            <name>DJI_20230919231119_0001_S_01m15.675s.JPG</name>
+            <Point id="162">
+                <coordinates>-104.756662,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="165">
+            <name>DJI_20230919231119_0001_S_01m16.609s.JPG</name>
+            <Point id="164">
+                <coordinates>-104.756662,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="167">
+            <name>DJI_20230919231119_0001_S_01m17.544s.JPG</name>
+            <Point id="166">
+                <coordinates>-104.756662,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="169">
+            <name>DJI_20230919231119_0001_S_01m18.478s.JPG</name>
+            <Point id="168">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="171">
+            <name>DJI_20230919231119_0001_S_01m19.412s.JPG</name>
+            <Point id="170">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="173">
+            <name>DJI_20230919231119_0001_S_01m20.346s.JPG</name>
+            <Point id="172">
+                <coordinates>-104.75666,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="175">
+            <name>DJI_20230919231119_0001_S_01m21.281s.JPG</name>
+            <Point id="174">
+                <coordinates>-104.75666,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="177">
+            <name>DJI_20230919231119_0001_S_01m22.215s.JPG</name>
+            <Point id="176">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="179">
+            <name>DJI_20230919231119_0001_S_01m23.149s.JPG</name>
+            <Point id="178">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="181">
+            <name>DJI_20230919231119_0001_S_01m24.084s.JPG</name>
+            <Point id="180">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="183">
+            <name>DJI_20230919231119_0001_S_01m25.018s.JPG</name>
+            <Point id="182">
+                <coordinates>-104.756661,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="185">
+            <name>DJI_20230919231119_0001_S_01m25.952s.JPG</name>
+            <Point id="184">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="187">
+            <name>DJI_20230919231119_0001_S_01m26.886s.JPG</name>
+            <Point id="186">
+                <coordinates>-104.756661,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="189">
+            <name>DJI_20230919231119_0001_S_01m27.821s.JPG</name>
+            <Point id="188">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="191">
+            <name>DJI_20230919231119_0001_S_01m28.755s.JPG</name>
+            <Point id="190">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="193">
+            <name>DJI_20230919231119_0001_S_01m29.689s.JPG</name>
+            <Point id="192">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="195">
+            <name>DJI_20230919231119_0001_S_01m30.623s.JPG</name>
+            <Point id="194">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="197">
+            <name>DJI_20230919231119_0001_S_01m31.558s.JPG</name>
+            <Point id="196">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="199">
+            <name>DJI_20230919231119_0001_S_01m32.492s.JPG</name>
+            <Point id="198">
+                <coordinates>-104.75666,39.519981,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="201">
+            <name>DJI_20230919231119_0001_S_01m33.426s.JPG</name>
+            <Point id="200">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="203">
+            <name>DJI_20230919231119_0001_S_01m34.360s.JPG</name>
+            <Point id="202">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="205">
+            <name>DJI_20230919231119_0001_S_01m35.295s.JPG</name>
+            <Point id="204">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="207">
+            <name>DJI_20230919231119_0001_S_01m36.229s.JPG</name>
+            <Point id="206">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="209">
+            <name>DJI_20230919231119_0001_S_01m37.163s.JPG</name>
+            <Point id="208">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="211">
+            <name>DJI_20230919231119_0001_S_01m38.098s.JPG</name>
+            <Point id="210">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="213">
+            <name>DJI_20230919231119_0001_S_01m39.032s.JPG</name>
+            <Point id="212">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="215">
+            <name>DJI_20230919231119_0001_S_01m39.966s.JPG</name>
+            <Point id="214">
+                <coordinates>-104.75666,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="217">
+            <name>DJI_20230919231119_0001_S_01m40.900s.JPG</name>
+            <Point id="216">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="219">
+            <name>DJI_20230919231119_0001_S_01m41.835s.JPG</name>
+            <Point id="218">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="221">
+            <name>DJI_20230919231119_0001_S_01m42.769s.JPG</name>
+            <Point id="220">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="223">
+            <name>DJI_20230919231119_0001_S_01m43.703s.JPG</name>
+            <Point id="222">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="225">
+            <name>DJI_20230919231119_0001_S_01m44.637s.JPG</name>
+            <Point id="224">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="227">
+            <name>DJI_20230919231119_0001_S_01m45.572s.JPG</name>
+            <Point id="226">
+                <coordinates>-104.756661,39.519979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="229">
+            <name>DJI_20230919231119_0001_S_01m46.506s.JPG</name>
+            <Point id="228">
+                <coordinates>-104.756661,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="231">
+            <name>DJI_20230919231119_0001_S_01m47.440s.JPG</name>
+            <Point id="230">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="233">
+            <name>DJI_20230919231119_0001_S_01m48.374s.JPG</name>
+            <Point id="232">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="235">
+            <name>DJI_20230919231119_0001_S_01m49.309s.JPG</name>
+            <Point id="234">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="237">
+            <name>DJI_20230919231119_0001_S_01m50.243s.JPG</name>
+            <Point id="236">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="239">
+            <name>DJI_20230919231119_0001_S_01m51.177s.JPG</name>
+            <Point id="238">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="241">
+            <name>DJI_20230919231119_0001_S_01m52.112s.JPG</name>
+            <Point id="240">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="243">
+            <name>DJI_20230919231119_0001_S_01m53.046s.JPG</name>
+            <Point id="242">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="245">
+            <name>DJI_20230919231119_0001_S_01m53.980s.JPG</name>
+            <Point id="244">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="247">
+            <name>DJI_20230919231119_0001_S_01m54.914s.JPG</name>
+            <Point id="246">
+                <coordinates>-104.75666,39.51998,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="249">
+            <name>DJI_20230919231119_0001_S_01m55.849s.JPG</name>
+            <Point id="248">
+                <coordinates>-104.75666,39.519982,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="251">
+            <name>DJI_20230919231119_0001_S_01m56.783s.JPG</name>
+            <Point id="250">
+                <coordinates>-104.756657,39.520009,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="253">
+            <name>DJI_20230919231119_0001_S_01m57.717s.JPG</name>
+            <Point id="252">
+                <coordinates>-104.756652,39.520047999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="255">
+            <name>DJI_20230919231119_0001_S_01m58.651s.JPG</name>
+            <Point id="254">
+                <coordinates>-104.756646,39.520098,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="257">
+            <name>DJI_20230919231119_0001_S_01m59.586s.JPG</name>
+            <Point id="256">
+                <coordinates>-104.756639,39.520147,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="259">
+            <name>DJI_20230919231119_0001_S_02m00.520s.JPG</name>
+            <Point id="258">
+                <coordinates>-104.756633,39.520195,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="261">
+            <name>DJI_20230919231119_0001_S_02m01.454s.JPG</name>
+            <Point id="260">
+                <coordinates>-104.756629,39.520226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="263">
+            <name>DJI_20230919231119_0001_S_02m02.388s.JPG</name>
+            <Point id="262">
+                <coordinates>-104.756628,39.520233,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="265">
+            <name>DJI_20230919231119_0001_S_02m03.323s.JPG</name>
+            <Point id="264">
+                <coordinates>-104.756628,39.520237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="267">
+            <name>DJI_20230919231119_0001_S_02m04.257s.JPG</name>
+            <Point id="266">
+                <coordinates>-104.756628,39.520239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="269">
+            <name>DJI_20230919231119_0001_S_02m05.191s.JPG</name>
+            <Point id="268">
+                <coordinates>-104.756628,39.520239,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="271">
+            <name>DJI_20230919231119_0001_S_02m06.126s.JPG</name>
+            <Point id="270">
+                <coordinates>-104.756628,39.52024,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="273">
+            <name>DJI_20230919231119_0001_S_02m07.060s.JPG</name>
+            <Point id="272">
+                <coordinates>-104.756627,39.520253,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="275">
+            <name>DJI_20230919231119_0001_S_02m07.994s.JPG</name>
+            <Point id="274">
+                <coordinates>-104.756625,39.520275999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="277">
+            <name>DJI_20230919231119_0001_S_02m08.928s.JPG</name>
+            <Point id="276">
+                <coordinates>-104.756622,39.520298,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="279">
+            <name>DJI_20230919231119_0001_S_02m09.863s.JPG</name>
+            <Point id="278">
+                <coordinates>-104.75662,39.520319,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="281">
+            <name>DJI_20230919231119_0001_S_02m10.797s.JPG</name>
+            <Point id="280">
+                <coordinates>-104.756618,39.52034,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="283">
+            <name>DJI_20230919231119_0001_S_02m11.731s.JPG</name>
+            <Point id="282">
+                <coordinates>-104.756616,39.520356,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="285">
+            <name>DJI_20230919231119_0001_S_02m12.665s.JPG</name>
+            <Point id="284">
+                <coordinates>-104.756616,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="287">
+            <name>DJI_20230919231119_0001_S_02m13.600s.JPG</name>
+            <Point id="286">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="289">
+            <name>DJI_20230919231119_0001_S_02m14.534s.JPG</name>
+            <Point id="288">
+                <coordinates>-104.756616,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="291">
+            <name>DJI_20230919231119_0001_S_02m15.468s.JPG</name>
+            <Point id="290">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="293">
+            <name>DJI_20230919231119_0001_S_02m16.402s.JPG</name>
+            <Point id="292">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="295">
+            <name>DJI_20230919231119_0001_S_02m17.337s.JPG</name>
+            <Point id="294">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="297">
+            <name>DJI_20230919231119_0001_S_02m18.271s.JPG</name>
+            <Point id="296">
+                <coordinates>-104.756616,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="299">
+            <name>DJI_20230919231119_0001_S_02m19.205s.JPG</name>
+            <Point id="298">
+                <coordinates>-104.756616,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301">
+            <name>DJI_20230919231119_0001_S_02m20.140s.JPG</name>
+            <Point id="300">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="303">
+            <name>DJI_20230919231119_0001_S_02m21.074s.JPG</name>
+            <Point id="302">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="305">
+            <name>DJI_20230919231119_0001_S_02m22.008s.JPG</name>
+            <Point id="304">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="307">
+            <name>DJI_20230919231119_0001_S_02m22.942s.JPG</name>
+            <Point id="306">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="309">
+            <name>DJI_20230919231119_0001_S_02m23.877s.JPG</name>
+            <Point id="308">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="311">
+            <name>DJI_20230919231119_0001_S_02m24.811s.JPG</name>
+            <Point id="310">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="313">
+            <name>DJI_20230919231119_0001_S_02m25.745s.JPG</name>
+            <Point id="312">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="315">
+            <name>DJI_20230919231119_0001_S_02m26.679s.JPG</name>
+            <Point id="314">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="317">
+            <name>DJI_20230919231119_0001_S_02m27.614s.JPG</name>
+            <Point id="316">
+                <coordinates>-104.756615,39.520359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="319">
+            <name>DJI_20230919231119_0001_S_02m28.548s.JPG</name>
+            <Point id="318">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="321">
+            <name>DJI_20230919231119_0001_S_02m29.482s.JPG</name>
+            <Point id="320">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="323">
+            <name>DJI_20230919231119_0001_S_02m30.416s.JPG</name>
+            <Point id="322">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="325">
+            <name>DJI_20230919231119_0001_S_02m31.351s.JPG</name>
+            <Point id="324">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="327">
+            <name>DJI_20230919231119_0001_S_02m32.285s.JPG</name>
+            <Point id="326">
+                <coordinates>-104.756615,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="329">
+            <name>DJI_20230919231119_0001_S_02m33.219s.JPG</name>
+            <Point id="328">
+                <coordinates>-104.756615,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="331">
+            <name>DJI_20230919231119_0001_S_02m34.154s.JPG</name>
+            <Point id="330">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="333">
+            <name>DJI_20230919231119_0001_S_02m35.088s.JPG</name>
+            <Point id="332">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="335">
+            <name>DJI_20230919231119_0001_S_02m36.022s.JPG</name>
+            <Point id="334">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="337">
+            <name>DJI_20230919231119_0001_S_02m36.956s.JPG</name>
+            <Point id="336">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="339">
+            <name>DJI_20230919231119_0001_S_02m37.891s.JPG</name>
+            <Point id="338">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="341">
+            <name>DJI_20230919231119_0001_S_02m38.825s.JPG</name>
+            <Point id="340">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="343">
+            <name>DJI_20230919231119_0001_S_02m39.759s.JPG</name>
+            <Point id="342">
+                <coordinates>-104.756616,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="345">
+            <name>DJI_20230919231119_0001_S_02m40.693s.JPG</name>
+            <Point id="344">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="347">
+            <name>DJI_20230919231119_0001_S_02m41.628s.JPG</name>
+            <Point id="346">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="349">
+            <name>DJI_20230919231119_0001_S_02m42.562s.JPG</name>
+            <Point id="348">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="351">
+            <name>DJI_20230919231119_0001_S_02m43.496s.JPG</name>
+            <Point id="350">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="353">
+            <name>DJI_20230919231119_0001_S_02m44.430s.JPG</name>
+            <Point id="352">
+                <coordinates>-104.756616,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="355">
+            <name>DJI_20230919231119_0001_S_02m45.365s.JPG</name>
+            <Point id="354">
+                <coordinates>-104.756616,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="357">
+            <name>DJI_20230919231119_0001_S_02m46.299s.JPG</name>
+            <Point id="356">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="359">
+            <name>DJI_20230919231119_0001_S_02m47.233s.JPG</name>
+            <Point id="358">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="361">
+            <name>DJI_20230919231119_0001_S_02m48.168s.JPG</name>
+            <Point id="360">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="363">
+            <name>DJI_20230919231119_0001_S_02m49.102s.JPG</name>
+            <Point id="362">
+                <coordinates>-104.756615,39.520364,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="365">
+            <name>DJI_20230919231119_0001_S_02m50.036s.JPG</name>
+            <Point id="364">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="367">
+            <name>DJI_20230919231119_0001_S_02m50.970s.JPG</name>
+            <Point id="366">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="369">
+            <name>DJI_20230919231119_0001_S_02m51.905s.JPG</name>
+            <Point id="368">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="371">
+            <name>DJI_20230919231119_0001_S_02m52.839s.JPG</name>
+            <Point id="370">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="373">
+            <name>DJI_20230919231119_0001_S_02m53.773s.JPG</name>
+            <Point id="372">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="375">
+            <name>DJI_20230919231119_0001_S_02m54.707s.JPG</name>
+            <Point id="374">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="377">
+            <name>DJI_20230919231119_0001_S_02m55.642s.JPG</name>
+            <Point id="376">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="379">
+            <name>DJI_20230919231119_0001_S_02m56.576s.JPG</name>
+            <Point id="378">
+                <coordinates>-104.756615,39.520362999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="381">
+            <name>DJI_20230919231119_0001_S_02m57.510s.JPG</name>
+            <Point id="380">
+                <coordinates>-104.756615,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="383">
+            <name>DJI_20230919231119_0001_S_02m58.444s.JPG</name>
+            <Point id="382">
+                <coordinates>-104.756616,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="385">
+            <name>DJI_20230919231119_0001_S_02m59.379s.JPG</name>
+            <Point id="384">
+                <coordinates>-104.756616,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="387">
+            <name>DJI_20230919231119_0001_S_03m00.313s.JPG</name>
+            <Point id="386">
+                <coordinates>-104.756616,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="389">
+            <name>DJI_20230919231119_0001_S_03m01.247s.JPG</name>
+            <Point id="388">
+                <coordinates>-104.756616,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="391">
+            <name>DJI_20230919231119_0001_S_03m02.182s.JPG</name>
+            <Point id="390">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="393">
+            <name>DJI_20230919231119_0001_S_03m03.116s.JPG</name>
+            <Point id="392">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="395">
+            <name>DJI_20230919231119_0001_S_03m04.050s.JPG</name>
+            <Point id="394">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="397">
+            <name>DJI_20230919231119_0001_S_03m04.984s.JPG</name>
+            <Point id="396">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="399">
+            <name>DJI_20230919231119_0001_S_03m05.919s.JPG</name>
+            <Point id="398">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="401">
+            <name>DJI_20230919231119_0001_S_03m06.853s.JPG</name>
+            <Point id="400">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="403">
+            <name>DJI_20230919231119_0001_S_03m07.787s.JPG</name>
+            <Point id="402">
+                <coordinates>-104.756616,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="405">
+            <name>DJI_20230919231119_0001_S_03m08.721s.JPG</name>
+            <Point id="404">
+                <coordinates>-104.756616,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="407">
+            <name>DJI_20230919231119_0001_S_03m09.656s.JPG</name>
+            <Point id="406">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="409">
+            <name>DJI_20230919231119_0001_S_03m10.590s.JPG</name>
+            <Point id="408">
+                <coordinates>-104.756615,39.520361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="411">
+            <name>DJI_20230919231119_0001_S_03m11.524s.JPG</name>
+            <Point id="410">
+                <coordinates>-104.756616,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="413">
+            <name>DJI_20230919231119_0001_S_03m12.458s.JPG</name>
+            <Point id="412">
+                <coordinates>-104.756615,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="415">
+            <name>DJI_20230919231119_0001_S_03m13.393s.JPG</name>
+            <Point id="414">
+                <coordinates>-104.756616,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="417">
+            <name>DJI_20230919231119_0001_S_03m14.327s.JPG</name>
+            <Point id="416">
+                <coordinates>-104.756616,39.52036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="419">
+            <name>DJI_20230919231119_0001_S_03m15.261s.JPG</name>
+            <Point id="418">
+                <coordinates>-104.756615,39.520362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="421">
+            <name>DJI_20230919231119_0001_S_03m16.196s.JPG</name>
+            <Point id="420">
+                <coordinates>-104.756613,39.520372,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423">
+            <name>DJI_20230919231119_0001_S_03m17.130s.JPG</name>
+            <Point id="422">
+                <coordinates>-104.756609,39.520403,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="425">
+            <name>DJI_20230919231119_0001_S_03m18.064s.JPG</name>
+            <Point id="424">
+                <coordinates>-104.756602,39.520455999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="427">
+            <name>DJI_20230919231119_0001_S_03m18.998s.JPG</name>
+            <Point id="426">
+                <coordinates>-104.756591,39.520527,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="429">
+            <name>DJI_20230919231119_0001_S_03m19.933s.JPG</name>
+            <Point id="428">
+                <coordinates>-104.756578,39.52062,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="431">
+            <name>DJI_20230919231119_0001_S_03m20.867s.JPG</name>
+            <Point id="430">
+                <coordinates>-104.75657,39.520678,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="433">
+            <name>DJI_20230919231119_0001_S_03m21.801s.JPG</name>
+            <Point id="432">
+                <coordinates>-104.756566,39.520704,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="435">
+            <name>DJI_20230919231119_0001_S_03m22.735s.JPG</name>
+            <Point id="434">
+                <coordinates>-104.756566,39.520702,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="437">
+            <name>DJI_20230919231119_0001_S_03m23.670s.JPG</name>
+            <Point id="436">
+                <coordinates>-104.75657,39.520671,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="439">
+            <name>DJI_20230919231119_0001_S_03m24.604s.JPG</name>
+            <Point id="438">
+                <coordinates>-104.756575,39.520644,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="441">
+            <name>DJI_20230919231119_0001_S_03m25.538s.JPG</name>
+            <Point id="440">
+                <coordinates>-104.756575,39.52064,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="443">
+            <name>DJI_20230919231119_0001_S_03m26.472s.JPG</name>
+            <Point id="442">
+                <coordinates>-104.756575,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="445">
+            <name>DJI_20230919231119_0001_S_03m27.407s.JPG</name>
+            <Point id="444">
+                <coordinates>-104.756575,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="447">
+            <name>DJI_20230919231119_0001_S_03m28.341s.JPG</name>
+            <Point id="446">
+                <coordinates>-104.756568,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="449">
+            <name>DJI_20230919231119_0001_S_03m29.275s.JPG</name>
+            <Point id="448">
+                <coordinates>-104.756543,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="451">
+            <name>DJI_20230919231119_0001_S_03m30.210s.JPG</name>
+            <Point id="450">
+                <coordinates>-104.756525,39.520632,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="453">
+            <name>DJI_20230919231119_0001_S_03m31.144s.JPG</name>
+            <Point id="452">
+                <coordinates>-104.756522,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="455">
+            <name>DJI_20230919231119_0001_S_03m32.078s.JPG</name>
+            <Point id="454">
+                <coordinates>-104.756517,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="457">
+            <name>DJI_20230919231119_0001_S_03m33.012s.JPG</name>
+            <Point id="456">
+                <coordinates>-104.756507,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459">
+            <name>DJI_20230919231119_0001_S_03m33.947s.JPG</name>
+            <Point id="458">
+                <coordinates>-104.756495,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="461">
+            <name>DJI_20230919231119_0001_S_03m34.881s.JPG</name>
+            <Point id="460">
+                <coordinates>-104.756485,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="463">
+            <name>DJI_20230919231119_0001_S_03m35.815s.JPG</name>
+            <Point id="462">
+                <coordinates>-104.756472,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465">
+            <name>DJI_20230919231119_0001_S_03m36.749s.JPG</name>
+            <Point id="464">
+                <coordinates>-104.75647,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="467">
+            <name>DJI_20230919231119_0001_S_03m37.684s.JPG</name>
+            <Point id="466">
+                <coordinates>-104.756469,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="469">
+            <name>DJI_20230919231119_0001_S_03m38.618s.JPG</name>
+            <Point id="468">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="471">
+            <name>DJI_20230919231119_0001_S_03m39.552s.JPG</name>
+            <Point id="470">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="473">
+            <name>DJI_20230919231119_0001_S_03m40.486s.JPG</name>
+            <Point id="472">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="475">
+            <name>DJI_20230919231119_0001_S_03m41.421s.JPG</name>
+            <Point id="474">
+                <coordinates>-104.75647,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="477">
+            <name>DJI_20230919231119_0001_S_03m42.355s.JPG</name>
+            <Point id="476">
+                <coordinates>-104.75647,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="479">
+            <name>DJI_20230919231119_0001_S_03m43.289s.JPG</name>
+            <Point id="478">
+                <coordinates>-104.75647,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="481">
+            <name>DJI_20230919231119_0001_S_03m44.224s.JPG</name>
+            <Point id="480">
+                <coordinates>-104.75647,39.520637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="483">
+            <name>DJI_20230919231119_0001_S_03m45.158s.JPG</name>
+            <Point id="482">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="485">
+            <name>DJI_20230919231119_0001_S_03m46.092s.JPG</name>
+            <Point id="484">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="487">
+            <name>DJI_20230919231119_0001_S_03m47.026s.JPG</name>
+            <Point id="486">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="489">
+            <name>DJI_20230919231119_0001_S_03m47.961s.JPG</name>
+            <Point id="488">
+                <coordinates>-104.75647,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491">
+            <name>DJI_20230919231119_0001_S_03m48.895s.JPG</name>
+            <Point id="490">
+                <coordinates>-104.756469,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="493">
+            <name>DJI_20230919231119_0001_S_03m49.829s.JPG</name>
+            <Point id="492">
+                <coordinates>-104.756469,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="495">
+            <name>DJI_20230919231119_0001_S_03m50.763s.JPG</name>
+            <Point id="494">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="497">
+            <name>DJI_20230919231119_0001_S_03m51.698s.JPG</name>
+            <Point id="496">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="499">
+            <name>DJI_20230919231119_0001_S_03m52.632s.JPG</name>
+            <Point id="498">
+                <coordinates>-104.756467,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="501">
+            <name>DJI_20230919231119_0001_S_03m53.566s.JPG</name>
+            <Point id="500">
+                <coordinates>-104.756467,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="503">
+            <name>DJI_20230919231119_0001_S_03m54.500s.JPG</name>
+            <Point id="502">
+                <coordinates>-104.756467,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="505">
+            <name>DJI_20230919231119_0001_S_03m55.435s.JPG</name>
+            <Point id="504">
+                <coordinates>-104.756467,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="507">
+            <name>DJI_20230919231119_0001_S_03m56.369s.JPG</name>
+            <Point id="506">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="509">
+            <name>DJI_20230919231119_0001_S_03m57.303s.JPG</name>
+            <Point id="508">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511">
+            <name>DJI_20230919231119_0001_S_03m58.238s.JPG</name>
+            <Point id="510">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="513">
+            <name>DJI_20230919231119_0001_S_03m59.172s.JPG</name>
+            <Point id="512">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="515">
+            <name>DJI_20230919231119_0001_S_04m00.106s.JPG</name>
+            <Point id="514">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="517">
+            <name>DJI_20230919231119_0001_S_04m01.040s.JPG</name>
+            <Point id="516">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="519">
+            <name>DJI_20230919231119_0001_S_04m01.975s.JPG</name>
+            <Point id="518">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="521">
+            <name>DJI_20230919231119_0001_S_04m02.909s.JPG</name>
+            <Point id="520">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="523">
+            <name>DJI_20230919231119_0001_S_04m03.843s.JPG</name>
+            <Point id="522">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="525">
+            <name>DJI_20230919231119_0001_S_04m04.777s.JPG</name>
+            <Point id="524">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="527">
+            <name>DJI_20230919231119_0001_S_04m05.712s.JPG</name>
+            <Point id="526">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="529">
+            <name>DJI_20230919231119_0001_S_04m06.646s.JPG</name>
+            <Point id="528">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="531">
+            <name>DJI_20230919231119_0001_S_04m07.580s.JPG</name>
+            <Point id="530">
+                <coordinates>-104.756468,39.520635999999996,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="533">
+            <name>DJI_20230919231119_0001_S_04m08.514s.JPG</name>
+            <Point id="532">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="535">
+            <name>DJI_20230919231119_0001_S_04m09.449s.JPG</name>
+            <Point id="534">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="537">
+            <name>DJI_20230919231119_0001_S_04m10.383s.JPG</name>
+            <Point id="536">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="539">
+            <name>DJI_20230919231119_0001_S_04m11.317s.JPG</name>
+            <Point id="538">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="541">
+            <name>DJI_20230919231119_0001_S_04m12.252s.JPG</name>
+            <Point id="540">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="543">
+            <name>DJI_20230919231119_0001_S_04m13.186s.JPG</name>
+            <Point id="542">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="545">
+            <name>DJI_20230919231119_0001_S_04m14.120s.JPG</name>
+            <Point id="544">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="547">
+            <name>DJI_20230919231119_0001_S_04m15.054s.JPG</name>
+            <Point id="546">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="549">
+            <name>DJI_20230919231119_0001_S_04m15.989s.JPG</name>
+            <Point id="548">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="551">
+            <name>DJI_20230919231119_0001_S_04m16.923s.JPG</name>
+            <Point id="550">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="553">
+            <name>DJI_20230919231119_0001_S_04m17.857s.JPG</name>
+            <Point id="552">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="555">
+            <name>DJI_20230919231119_0001_S_04m18.791s.JPG</name>
+            <Point id="554">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="557">
+            <name>DJI_20230919231119_0001_S_04m19.726s.JPG</name>
+            <Point id="556">
+                <coordinates>-104.75647,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="559">
+            <name>DJI_20230919231119_0001_S_04m20.660s.JPG</name>
+            <Point id="558">
+                <coordinates>-104.75647,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="561">
+            <name>DJI_20230919231119_0001_S_04m21.594s.JPG</name>
+            <Point id="560">
+                <coordinates>-104.756469,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="563">
+            <name>DJI_20230919231119_0001_S_04m22.528s.JPG</name>
+            <Point id="562">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="565">
+            <name>DJI_20230919231119_0001_S_04m23.463s.JPG</name>
+            <Point id="564">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="567">
+            <name>DJI_20230919231119_0001_S_04m24.397s.JPG</name>
+            <Point id="566">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="569">
+            <name>DJI_20230919231119_0001_S_04m25.331s.JPG</name>
+            <Point id="568">
+                <coordinates>-104.756471,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="571">
+            <name>DJI_20230919231119_0001_S_04m26.266s.JPG</name>
+            <Point id="570">
+                <coordinates>-104.756471,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="573">
+            <name>DJI_20230919231119_0001_S_04m27.200s.JPG</name>
+            <Point id="572">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="575">
+            <name>DJI_20230919231119_0001_S_04m28.134s.JPG</name>
+            <Point id="574">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="577">
+            <name>DJI_20230919231119_0001_S_04m29.068s.JPG</name>
+            <Point id="576">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="579">
+            <name>DJI_20230919231119_0001_S_04m30.003s.JPG</name>
+            <Point id="578">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="581">
+            <name>DJI_20230919231119_0001_S_04m30.937s.JPG</name>
+            <Point id="580">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="583">
+            <name>DJI_20230919231119_0001_S_04m31.871s.JPG</name>
+            <Point id="582">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="585">
+            <name>DJI_20230919231119_0001_S_04m32.805s.JPG</name>
+            <Point id="584">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="587">
+            <name>DJI_20230919231119_0001_S_04m33.740s.JPG</name>
+            <Point id="586">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="589">
+            <name>DJI_20230919231119_0001_S_04m34.674s.JPG</name>
+            <Point id="588">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="591">
+            <name>DJI_20230919231119_0001_S_04m35.608s.JPG</name>
+            <Point id="590">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="593">
+            <name>DJI_20230919231119_0001_S_04m36.542s.JPG</name>
+            <Point id="592">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="595">
+            <name>DJI_20230919231119_0001_S_04m37.477s.JPG</name>
+            <Point id="594">
+                <coordinates>-104.75647,39.520632,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="597">
+            <name>DJI_20230919231119_0001_S_04m38.411s.JPG</name>
+            <Point id="596">
+                <coordinates>-104.756471,39.520632,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="599">
+            <name>DJI_20230919231119_0001_S_04m39.345s.JPG</name>
+            <Point id="598">
+                <coordinates>-104.756471,39.520632,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="601">
+            <name>DJI_20230919231119_0001_S_04m40.280s.JPG</name>
+            <Point id="600">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="603">
+            <name>DJI_20230919231119_0001_S_04m41.214s.JPG</name>
+            <Point id="602">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="605">
+            <name>DJI_20230919231119_0001_S_04m42.148s.JPG</name>
+            <Point id="604">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="607">
+            <name>DJI_20230919231119_0001_S_04m43.082s.JPG</name>
+            <Point id="606">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="609">
+            <name>DJI_20230919231119_0001_S_04m44.017s.JPG</name>
+            <Point id="608">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="611">
+            <name>DJI_20230919231119_0001_S_04m44.951s.JPG</name>
+            <Point id="610">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="613">
+            <name>DJI_20230919231119_0001_S_04m45.885s.JPG</name>
+            <Point id="612">
+                <coordinates>-104.756469,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="615">
+            <name>DJI_20230919231119_0001_S_04m46.819s.JPG</name>
+            <Point id="614">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="617">
+            <name>DJI_20230919231119_0001_S_04m47.754s.JPG</name>
+            <Point id="616">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="619">
+            <name>DJI_20230919231119_0001_S_04m48.688s.JPG</name>
+            <Point id="618">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="621">
+            <name>DJI_20230919231119_0001_S_04m49.622s.JPG</name>
+            <Point id="620">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="623">
+            <name>DJI_20230919231119_0001_S_04m50.556s.JPG</name>
+            <Point id="622">
+                <coordinates>-104.756469,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="625">
+            <name>DJI_20230919231119_0001_S_04m51.491s.JPG</name>
+            <Point id="624">
+                <coordinates>-104.756469,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="627">
+            <name>DJI_20230919231119_0001_S_04m52.425s.JPG</name>
+            <Point id="626">
+                <coordinates>-104.756468,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="629">
+            <name>DJI_20230919231119_0001_S_04m53.359s.JPG</name>
+            <Point id="628">
+                <coordinates>-104.756468,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="631">
+            <name>DJI_20230919231119_0001_S_04m54.294s.JPG</name>
+            <Point id="630">
+                <coordinates>-104.756468,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="633">
+            <name>DJI_20230919231119_0001_S_04m55.228s.JPG</name>
+            <Point id="632">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="635">
+            <name>DJI_20230919231119_0001_S_04m56.162s.JPG</name>
+            <Point id="634">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="637">
+            <name>DJI_20230919231119_0001_S_04m57.096s.JPG</name>
+            <Point id="636">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="639">
+            <name>DJI_20230919231119_0001_S_04m58.031s.JPG</name>
+            <Point id="638">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="641">
+            <name>DJI_20230919231119_0001_S_04m58.965s.JPG</name>
+            <Point id="640">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="643">
+            <name>DJI_20230919231119_0001_S_04m59.899s.JPG</name>
+            <Point id="642">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="645">
+            <name>DJI_20230919231119_0001_S_05m00.833s.JPG</name>
+            <Point id="644">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="647">
+            <name>DJI_20230919231119_0001_S_05m01.768s.JPG</name>
+            <Point id="646">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="649">
+            <name>DJI_20230919231119_0001_S_05m02.702s.JPG</name>
+            <Point id="648">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="651">
+            <name>DJI_20230919231119_0001_S_05m03.636s.JPG</name>
+            <Point id="650">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="653">
+            <name>DJI_20230919231119_0001_S_05m04.570s.JPG</name>
+            <Point id="652">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="655">
+            <name>DJI_20230919231119_0001_S_05m05.505s.JPG</name>
+            <Point id="654">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="657">
+            <name>DJI_20230919231119_0001_S_05m06.439s.JPG</name>
+            <Point id="656">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="659">
+            <name>DJI_20230919231119_0001_S_05m07.373s.JPG</name>
+            <Point id="658">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="661">
+            <name>DJI_20230919231119_0001_S_05m08.308s.JPG</name>
+            <Point id="660">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="663">
+            <name>DJI_20230919231119_0001_S_05m09.242s.JPG</name>
+            <Point id="662">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="665">
+            <name>DJI_20230919231119_0001_S_05m10.176s.JPG</name>
+            <Point id="664">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="667">
+            <name>DJI_20230919231119_0001_S_05m11.110s.JPG</name>
+            <Point id="666">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="669">
+            <name>DJI_20230919231119_0001_S_05m12.045s.JPG</name>
+            <Point id="668">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="671">
+            <name>DJI_20230919231119_0001_S_05m12.979s.JPG</name>
+            <Point id="670">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="673">
+            <name>DJI_20230919231119_0001_S_05m13.913s.JPG</name>
+            <Point id="672">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="675">
+            <name>DJI_20230919231119_0001_S_05m14.847s.JPG</name>
+            <Point id="674">
+                <coordinates>-104.756471,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="677">
+            <name>DJI_20230919231119_0001_S_05m15.782s.JPG</name>
+            <Point id="676">
+                <coordinates>-104.75647,39.520633,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="679">
+            <name>DJI_20230919231119_0001_S_05m16.716s.JPG</name>
+            <Point id="678">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="681">
+            <name>DJI_20230919231119_0001_S_05m17.650s.JPG</name>
+            <Point id="680">
+                <coordinates>-104.75647,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="683">
+            <name>DJI_20230919231119_0001_S_05m18.584s.JPG</name>
+            <Point id="682">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="685">
+            <name>DJI_20230919231119_0001_S_05m19.519s.JPG</name>
+            <Point id="684">
+                <coordinates>-104.756469,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="687">
+            <name>DJI_20230919231119_0001_S_05m20.453s.JPG</name>
+            <Point id="686">
+                <coordinates>-104.756469,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="689">
+            <name>DJI_20230919231119_0001_S_05m21.387s.JPG</name>
+            <Point id="688">
+                <coordinates>-104.756469,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="691">
+            <name>DJI_20230919231119_0001_S_05m22.322s.JPG</name>
+            <Point id="690">
+                <coordinates>-104.756469,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="693">
+            <name>DJI_20230919231119_0001_S_05m23.256s.JPG</name>
+            <Point id="692">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="695">
+            <name>DJI_20230919231119_0001_S_05m24.190s.JPG</name>
+            <Point id="694">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="697">
+            <name>DJI_20230919231119_0001_S_05m25.124s.JPG</name>
+            <Point id="696">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="699">
+            <name>DJI_20230919231119_0001_S_05m26.059s.JPG</name>
+            <Point id="698">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="701">
+            <name>DJI_20230919231119_0001_S_05m26.993s.JPG</name>
+            <Point id="700">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="703">
+            <name>DJI_20230919231119_0001_S_05m27.927s.JPG</name>
+            <Point id="702">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="705">
+            <name>DJI_20230919231119_0001_S_05m28.861s.JPG</name>
+            <Point id="704">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="707">
+            <name>DJI_20230919231119_0001_S_05m29.796s.JPG</name>
+            <Point id="706">
+                <coordinates>-104.756468,39.520634,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="709">
+            <name>DJI_20230919231119_0001_S_05m30.730s.JPG</name>
+            <Point id="708">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="711">
+            <name>DJI_20230919231119_0001_S_05m31.664s.JPG</name>
+            <Point id="710">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="713">
+            <name>DJI_20230919231119_0001_S_05m32.598s.JPG</name>
+            <Point id="712">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="715">
+            <name>DJI_20230919231119_0001_S_05m33.533s.JPG</name>
+            <Point id="714">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="717">
+            <name>DJI_20230919231119_0001_S_05m34.467s.JPG</name>
+            <Point id="716">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="719">
+            <name>DJI_20230919231119_0001_S_05m35.401s.JPG</name>
+            <Point id="718">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="721">
+            <name>DJI_20230919231119_0001_S_05m36.336s.JPG</name>
+            <Point id="720">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="723">
+            <name>DJI_20230919231119_0001_S_05m37.270s.JPG</name>
+            <Point id="722">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="725">
+            <name>DJI_20230919231119_0001_S_05m38.204s.JPG</name>
+            <Point id="724">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="727">
+            <name>DJI_20230919231119_0001_S_05m39.138s.JPG</name>
+            <Point id="726">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="729">
+            <name>DJI_20230919231119_0001_S_05m40.073s.JPG</name>
+            <Point id="728">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="731">
+            <name>DJI_20230919231119_0001_S_05m41.007s.JPG</name>
+            <Point id="730">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="733">
+            <name>DJI_20230919231119_0001_S_05m41.941s.JPG</name>
+            <Point id="732">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="735">
+            <name>DJI_20230919231119_0001_S_05m42.875s.JPG</name>
+            <Point id="734">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="737">
+            <name>DJI_20230919231119_0001_S_05m43.810s.JPG</name>
+            <Point id="736">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="739">
+            <name>DJI_20230919231119_0001_S_05m44.744s.JPG</name>
+            <Point id="738">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="741">
+            <name>DJI_20230919231119_0001_S_05m45.678s.JPG</name>
+            <Point id="740">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="743">
+            <name>DJI_20230919231119_0001_S_05m46.612s.JPG</name>
+            <Point id="742">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="745">
+            <name>DJI_20230919231119_0001_S_05m47.547s.JPG</name>
+            <Point id="744">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="747">
+            <name>DJI_20230919231119_0001_S_05m48.481s.JPG</name>
+            <Point id="746">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="749">
+            <name>DJI_20230919231119_0001_S_05m49.415s.JPG</name>
+            <Point id="748">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="751">
+            <name>DJI_20230919231119_0001_S_05m50.350s.JPG</name>
+            <Point id="750">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="753">
+            <name>DJI_20230919231119_0001_S_05m51.284s.JPG</name>
+            <Point id="752">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="755">
+            <name>DJI_20230919231119_0001_S_05m52.218s.JPG</name>
+            <Point id="754">
+                <coordinates>-104.756468,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="757">
+            <name>DJI_20230919231119_0001_S_05m53.152s.JPG</name>
+            <Point id="756">
+                <coordinates>-104.756467,39.520635,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
