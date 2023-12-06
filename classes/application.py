@@ -1,5 +1,5 @@
 from PySide2.QtWidgets import QApplication, QWidget
-from PySide2.QtGui import QIcon, QFontDatabase
+from PySide2.QtGui import QIcon, QFontDatabase, QFont
 from PySide2.QtCore import QDir, QPoint, Qt, QRect
 import os
 import sys
@@ -10,7 +10,6 @@ def load_fonts_from_dir(directory):
     families = set()
     for fi in QDir(directory).entryInfoList(["*.ttf"]):
         _id = QFontDatabase.addApplicationFont(fi.absoluteFilePath())
-        print(_id)
         families |= set(QFontDatabase.applicationFontFamilies(_id))
     return families
 
@@ -43,7 +42,7 @@ class ConverterApplication(QApplication):
            QWidget {{
                 background: transparent;
                 color: white;
-                font: {label_font_size}px "Saira Medium";
+                font: {label_font_size}px "Saira Bold";
             }}
     
             QWidget#centralwidget {{
@@ -64,7 +63,7 @@ class ConverterApplication(QApplication):
             
             QMenu {{
                 color: white;
-                font: {general_font_size}px "Saira";
+                font: {general_font_size}px "Saira Bold";
                 background: #19232D;
             }}
             
@@ -91,7 +90,7 @@ class ConverterApplication(QApplication):
             
             QLineEdit{{
                 background: rgba(22, 22, 22, 1);
-                font: 14px "Saira Regular";
+                font: 14px "Saira Bold";
                 border: rgba(22, 22, 22, 1);
                 color: white;
                 border-radius: 12px;
@@ -100,7 +99,7 @@ class ConverterApplication(QApplication):
             
             QComboBox {{
                 border-image: url("assets/g2/text-field-3d-effect.png") 0 0 0 0 stretch stretch;
-                font: {general_font_size}px "Saira";
+                font: {general_font_size}px "Saira Bold";
                 border: transparent;
                 color: white;
                 padding-left: 10px;
@@ -155,7 +154,7 @@ class ConverterApplication(QApplication):
             }}
 
             QSpinBox, QDoubleSpinBox {{
-                font: {general_font_size}px "Saira";
+                font: {general_font_size}px "Saira Bold";
                 color: white;
                 background: black;
                 border-radius: {12*self.scale_factor}px;
@@ -188,9 +187,9 @@ class ConverterApplication(QApplication):
                 height:0px;
             }}
 
-            .QFrame {{
+            QFrame {{
                 border-radius: 8px;
-                border:2px solid #2D2E35;
+                border:0px solid #2D2E35;
                 border-style: solid;
             }}
 
@@ -198,6 +197,8 @@ class ConverterApplication(QApplication):
                 padding: 0px;
                 color: white;
                 background: transparent;
+                font: {general_font_size}px "Saira Bold";
+                
             }}
             
             Loc8G2WhiteLabel {{
@@ -207,7 +208,7 @@ class ConverterApplication(QApplication):
             Loc8G2GrayLabel {{
                 color: #5D616C;
                 background: transparent;
-                font: {gray_label_font_size}px "Saira";
+                font: {gray_label_font_size}px "Saira Bold";
                 padding-left: 10px;
             }}
                         
@@ -222,7 +223,7 @@ class ConverterApplication(QApplication):
                 border: 2px solid #1C1E26;
                 border-radius: {12*self.scale_factor}px;
                 color:white;
-                font: {general_font_size}px "Saira";
+                font: {general_font_size}px "Saira Bold";
                 padding:{0 if self.scale_factor<1 else 10}px;
             }}
             
@@ -230,7 +231,7 @@ class ConverterApplication(QApplication):
                 background-image: url("assets/g2/button-states/back.png");
                 border: 2px solid #181818;
                 border-radius: 10px;
-                font: 14px "Saira Medium";
+                font: 14px "Saira Bold";
             }}
 
             QPushButton#btnClose {{
@@ -285,7 +286,7 @@ class ConverterApplication(QApplication):
                 text-align: right;
                 background: #161616;
                 border-radius: 11px;
-                font: 14px "Saira Regular";
+                font: 14px "Saira Bold";
             }}
             
             QProgressBar::chunk {{
@@ -549,7 +550,7 @@ class ConverterApplication(QApplication):
                 color: white;
                 background: transparent;
                 border: transparent;
-                font: {label_font_size}px "Saira";
+                font: {label_font_size}px "Saira Bold";
             }}
 
             QComboBox::down-arrow {{

@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QFileDialog, QApplication, QMainWindow
+from PySide2.QtWidgets import QFileDialog, QApplication, QMainWindow, QMessageBox
 from PySide2.QtCore import Qt
 import sys
 from classes.Application import ConverterApplication
@@ -8,12 +8,16 @@ import os
 from classes.Settings import SettingsClass
 from constants import *
 from classes.ConverterEngine import SRT2KMLConverterEngine
+import threading
 
+CONVERT_NO_ERRORS = 0
+CONVERT_ERROR_LOADING = 1
+CONVERT_ERROR_CONVERTING = 2
 
 class SRT2KMLConverter(QMainWindow):
     def __init__(self, parent=None):
         QMainWindow.__init__(self, parent)
-        self.converter = SRT2KMLConverterEngine()
+        self.converter = SRT2KMLConverterEngine(self.progress)
         self.ui = Ui_SRT2KMLConverter()
         self.ui.setupUi(self)
         self.setWindowFlag(Qt.FramelessWindowHint, True)
@@ -43,7 +47,13 @@ class SRT2KMLConverter(QMainWindow):
         self.ui.btnClose.clicked.connect(self.close)
         
     def closeEvent(self, event):
+        self.config.config_output_path = self.ui.txtOutputFile.text()
+        self.config.config_input_path = self.ui.txtSource.text()
+        self.config.config_filetype = self.getOutputFormat()
         self.config.write_config()
+        
+    def progress(self, value):
+        self.ui.progressBar.setValue(value)
         
     def loadSettings(self):
         if self.config.config_filetype not in self.all_types:
@@ -63,11 +73,11 @@ class SRT2KMLConverter(QMainWindow):
         self.config.config_filetype = output_format
         if len(self.ui.txtOutputFile.text())>0:
             output_file = self.ui.txtOutputFile.text()
-            if not output_file:
-                return
-            filename, _ = os.path.splitext(output_file)
-            new_output_file = filename + "." + output_format
-            self.ui.txtOutputFile.setText(new_output_file)
+            if output_file:          
+                filename, _ = os.path.splitext(output_file)
+                new_output_file = filename + "." + output_format
+                self.ui.txtOutputFile.setText(new_output_file)
+
 
     def chooseSource(self):
         last_open_dir = os.path.dirname(self.ui.txtSource.text())
@@ -126,34 +136,74 @@ class SRT2KMLConverter(QMainWindow):
             self.ui.txtOutputFile.setText(output_file)
             self.updateType(output_file)
 
+
+            
+ 
+    def convertFile(self, _input, _output, _format):
+        self.returnStatus = CONVERT_NO_ERRORS
+        if not self.converter.loadFile(_input):   
+            self.returnStatus = CONVERT_ERROR_LOADING
+            return
+        if not self.converter.convertFile(_output, _format):
+            self.returnStatus = CONVERT_ERROR_CONVERTING
+
     def start(self):
         self.errors = None
-        #        source_path = self.ui.txtSource.text()
-        #        output_path = self.ui.txtOutputFile.text()
-        #        output_format = self.getOutputFormat()
-        #        self.t = threading.Thread(target=self.converter.start, args=(source_path, output_path, output_format), daemon=True)
-        #        self.t.start()
-        #        self.ui.btnStart.setStyleSheet(
-        #            "QPushButton#btnStart {"
-        #            "   border-color: orange;"
-        #            "   color: orange;"
-        #            "   background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #202020, stop:0.5 #1D1D1D, stop:1 #242424);"
-        #            "}"
-        #        )
-        #        self.ui.btnStart.setText("Stop")
-        #        self.ui.btnStart.clicked.disconnect()
-        #        self.ui.btnStart.clicked.connect(self.end)
-        #        self.ui.progressBar.setMaximum(0)
+    
+        source_path = self.ui.txtSource.text()
+        output_path = self.ui.txtOutputFile.text()
+        output_format = self.getOutputFormat()
+        self.ui.progressBar.setMaximum(100)
+        self.ui.progressBar.setValue(0)
+        
+        if source_path.strip() == '':
+            QMessageBox.critical(None, 'Error',"Please select source file")
+            return
+
+        if output_path.strip() == '':
+            QMessageBox.critical(None, 'Error',"Please select output file")
+            return
+            
+        self.thr = threading.Thread(target=self.convertFile, args=(source_path, output_path, output_format))
+        self.thr.start()
+
+       
+        
+
+        self.ui.btnStart.setStyleSheet(
+            "QPushButton#btnStart {"
+            "   border-color: orange;"
+            "   color: orange;"
+            "   background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #202020, stop:0.5 #1D1D1D, stop:1 #242424);"
+            "}"
+        )
+        self.ui.btnStart.setText("Stop")
+        self.ui.btnStart.clicked.disconnect()
+        self.ui.btnStart.clicked.connect(self.end)
+
 
         while True:
             time.sleep(0.1)
             QApplication.instance().processEvents()
-            if not self.t.is_alive():
+            if not self.thr.is_alive():
                 self.end()
                 break
+        if (self.returnStatus == CONVERT_ERROR_LOADING) and (not self.converter.convAborted):
+            QMessageBox.critical(None, 'Error',"Error during loading and parsing Source File.")
+            
+    
+        if (self.returnStatus == CONVERT_ERROR_CONVERTING) and (not self.converter.convAborted):
+            QMessageBox.critical(None, 'Error',"Error during converting file.")
+            
+        if (self.returnStatus == CONVERT_NO_ERRORS) and (not self.converter.convAborted):
+            QMessageBox.information(None, 'Information',"File converted.")
 
+             
+             
     def end(self):
-        print("End application")
+        self.converter.stop()
+        if self.converter.convAborted:
+            QMessageBox.information(None, 'Information',"Convert aborted.")
         self.ui.btnStart.setText("Start")
         self.ui.btnStart.clicked.disconnect()
         self.ui.btnStart.clicked.connect(self.start)
@@ -174,7 +224,7 @@ class SRT2KMLConverter(QMainWindow):
             "    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0 #202020, stop: 0.5 #1D1D1D, stop: 1 #242424);"
             "}"
         )
-        self.converter.stop()
+        
 
 
 if __name__ == "__main__":

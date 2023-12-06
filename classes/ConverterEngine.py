@@ -7,6 +7,7 @@ import json
 import tempfile
 import zipfile
 
+
 class SRT2KMLConverterEngine:
     
     def __init__(self, progressCallBack = None):
@@ -15,6 +16,10 @@ class SRT2KMLConverterEngine:
         self.baseName = ""
         self.progressCallBack = progressCallBack
         self.lastProgress = 0
+        self.flagStop = False
+        self.convAborted = False
+    def stop(self):
+        self.flagStop = True
         
     def callProgress(self, progress):
         if (int(progress)!=self.lastProgress):
@@ -22,15 +27,14 @@ class SRT2KMLConverterEngine:
                 self.progressCallBack(int(progress))
         self.lastProgress = int(progress)
         
-    def convertFile(self, src, dst, type):
-        if not self.loadedFile(src):
-            return False
+    def convertFile(self, dst, type):
         if type == DRONE_FORMAT_KML or type == DRONE_FORMAT_KMZ:
-            return self.convertToKML(dst, type)
+            return self.convertToKMLKMZ(dst, type)
         if type == DRONE_FORMAT_GPX:
             return self.convertToGPX(dst)
         if type == DRONE_FORMAT_JSON:
             return self.convertToJSON(dst)
+        return False
         
     def convertToGPX(self, dst, prettyXML = True):
             if len(self.loadedData) == 0:
@@ -46,6 +50,9 @@ class SRT2KMLConverterEngine:
                 name.text = rec['name']
                 progress += progressStep
                 self.callProgress(progress)
+                if self.flagStop:
+                    self.convAborted = True
+                    return False
             xml_string = ET.tostring(gpx, encoding='unicode', method='xml')
             if prettyXML:
                 reparsed = minidom.parseString(xml_string)
@@ -77,7 +84,11 @@ class SRT2KMLConverterEngine:
             coordinates = ET.SubElement(point, "coordinates")
             coordinates.text = str(rec['long'])+","+str(rec['lat'])
             progress += progressStep
+            if self.flagStop:
+                self.convAborted = True
+                return False
             self.callProgress(progress)
+   
             
         xml_string = ET.tostring(kml, encoding='unicode', method='xml')
         if prettyXML:
@@ -122,8 +133,11 @@ class SRT2KMLConverterEngine:
                                 }
             features.append(rec)
             progress += progressStep
+            if self.flagStop:
+                self.convAborted = True
+                return False
             self.callProgress(progress)
-            
+
         idnt = None
         if prettyJSON:
             idnt = 4
@@ -161,6 +175,8 @@ class SRT2KMLConverterEngine:
         return True
     
     def loadFile(self, filename): 
+        self.flagStop = False
+        self.convAborted = False
         self.lastProgress = 0
         try:
             _file = open(filename, "r")
@@ -186,11 +202,13 @@ class SRT2KMLConverterEngine:
                     _temp.clear()
             progress += progressStep
             self.callProgress(progress)
-                
+            if self.flagStop:
+                self.convAborted = True
+                return False
         if len(_temp)>0:
             if self.parseSRTRecord(_temp):
                 return False
-                
+        return True
 if __name__ == '__main__':
     _convert = SRT2KMLConverterEngine()
     _convert.loadFile('..\SRT_Sample\CDJI_20230919231119_0001_S.SRT')
