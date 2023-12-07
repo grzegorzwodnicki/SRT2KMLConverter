@@ -9,10 +9,15 @@ from classes.Settings import SettingsClass
 from constants import *
 from classes.ConverterEngine import SRT2KMLConverterEngine
 import threading
+from version import Version as V
+
+V.PROJECT_NAME = "SRT/KML Converter"
+V.PROJECT_VERSION = "1.01"
 
 CONVERT_NO_ERRORS = 0
 CONVERT_ERROR_LOADING = 1
 CONVERT_ERROR_CONVERTING = 2
+
 
 class SRT2KMLConverter(QMainWindow):
     def __init__(self, parent=None):
@@ -45,7 +50,7 @@ class SRT2KMLConverter(QMainWindow):
 
         self.ui.btnStart.clicked.connect(self.start)
         self.ui.btnClose.clicked.connect(self.close)
-        
+        self.ui.lblVersion.setText('Ver. '+V.PROJECT_VERSION)
     def closeEvent(self, event):
         self.config.config_output_path = self.ui.txtOutputFile.text()
         self.config.config_input_path = self.ui.txtSource.text()

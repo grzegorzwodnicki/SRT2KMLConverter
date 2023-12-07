@@ -1,2 +1,5 @@
 *.pyc
 /config.ini
+/dist
+/dist-win32
+/build

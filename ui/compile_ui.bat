@@ -1,1 +1,1 @@
-pyside2-uic -o SARTopoKMLConverter.py SARTopoKMLConverter.ui
+pyside2-uic -o SRT2KMLConverter.py SRT2KMLConverter.ui

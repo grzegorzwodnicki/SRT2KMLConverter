@@ -42,7 +42,7 @@ class ConverterApplication(QApplication):
            QWidget {{
                 background: transparent;
                 color: white;
-                font: {label_font_size}px "Saira Bold";
+                font: {label_font_size}px "Saira SemiBold";
             }}
     
             QWidget#centralwidget {{
@@ -63,7 +63,7 @@ class ConverterApplication(QApplication):
             
             QMenu {{
                 color: white;
-                font: {general_font_size}px "Saira Bold";
+                font: {general_font_size}px "Saira SemiBold";
                 background: #19232D;
             }}
             
@@ -90,7 +90,7 @@ class ConverterApplication(QApplication):
             
             QLineEdit{{
                 background: rgba(22, 22, 22, 1);
-                font: 14px "Saira Bold";
+                font: 14px "Saira SemiBold";
                 border: rgba(22, 22, 22, 1);
                 color: white;
                 border-radius: 12px;
@@ -99,7 +99,7 @@ class ConverterApplication(QApplication):
             
             QComboBox {{
                 border-image: url("assets/g2/text-field-3d-effect.png") 0 0 0 0 stretch stretch;
-                font: {general_font_size}px "Saira Bold";
+                font: {general_font_size}px "Saira SemiBold";
                 border: transparent;
                 color: white;
                 padding-left: 10px;
@@ -154,7 +154,7 @@ class ConverterApplication(QApplication):
             }}
 
             QSpinBox, QDoubleSpinBox {{
-                font: {general_font_size}px "Saira Bold";
+                font: {general_font_size}px "Saira SemiBold";
                 color: white;
                 background: black;
                 border-radius: {12*self.scale_factor}px;
@@ -197,7 +197,7 @@ class ConverterApplication(QApplication):
                 padding: 0px;
                 color: white;
                 background: transparent;
-                font: {general_font_size}px "Saira Bold";
+                font: {general_font_size}px "Saira SemiBold";
                 
             }}
             
@@ -208,7 +208,7 @@ class ConverterApplication(QApplication):
             Loc8G2GrayLabel {{
                 color: #5D616C;
                 background: transparent;
-                font: {gray_label_font_size}px "Saira Bold";
+                font: {gray_label_font_size}px "Saira SemiBold";
                 padding-left: 10px;
             }}
                         
@@ -223,7 +223,7 @@ class ConverterApplication(QApplication):
                 border: 2px solid #1C1E26;
                 border-radius: {12*self.scale_factor}px;
                 color:white;
-                font: {general_font_size}px "Saira Bold";
+                font: {general_font_size}px "Saira SemiBold";
                 padding:{0 if self.scale_factor<1 else 10}px;
             }}
             
@@ -231,7 +231,7 @@ class ConverterApplication(QApplication):
                 background-image: url("assets/g2/button-states/back.png");
                 border: 2px solid #181818;
                 border-radius: 10px;
-                font: 14px "Saira Bold";
+                font: 14px "Saira SemiBold";
             }}
 
             QPushButton#btnClose {{
@@ -286,7 +286,7 @@ class ConverterApplication(QApplication):
                 text-align: right;
                 background: #161616;
                 border-radius: 11px;
-                font: 14px "Saira Bold";
+                font: 14px "Saira SemiBold";
             }}
             
             QProgressBar::chunk {{
@@ -550,7 +550,7 @@ class ConverterApplication(QApplication):
                 color: white;
                 background: transparent;
                 border: transparent;
-                font: {label_font_size}px "Saira Bold";
+                font: {label_font_size}px "Saira SemiBold";
             }}
 
             QComboBox::down-arrow {{
