@@ -14,11 +14,13 @@ AppPublisher=USRI
 DefaultDirName={commonpf}\SRT2KML Converter\
 DefaultGroupName=SRT KML Converter
 AllowNoIcons=yes
-OutputBaseFilename=SRT2KMLConverter-1.01
+OutputBaseFilename=SRT2KML Converter-1.01
 Compression=lzma
 SolidCompression=yes
 DisableDirPage=no
 ArchitecturesInstallIn64BitMode=
+SetupIconFile=assets\g2\logo.ico
+
 ;LicenseFile=SRT KML Converter eula.txt
 
 [Tasks]
