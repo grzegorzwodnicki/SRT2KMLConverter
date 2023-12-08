@@ -3,3 +3,5 @@
 /dist
 /dist-win32
 /build
+/ui/__pycache__
+/Output

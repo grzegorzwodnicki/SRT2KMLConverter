@@ -24,18 +24,25 @@ class ConverterApplication(QApplication):
     def __init__(self, *args, **kwargs):
         QApplication.__init__(self, *args, **kwargs)
         QApplication.setWindowIcon(QIcon(self.icon_path))
-        QDir.addSearchPath("images", os.path.join(os.path.abspath(sys.executable), os.path.abspath("assets/g2/")))
+        _path = os.path.dirname(sys.argv[0])
+        if (_path == ''):
+          _path = '.'
+        QDir.addSearchPath("assets", _path)
+        
         self.setG2StyleSheet()
 
     def setG2StyleSheet(self):
-        
+
+         
         general_font_size = round(14 * self.scale_factor)
         label_font_size = round(16 * self.scale_factor)
         gray_label_font_size = round(12 * self.scale_factor)
         title_label_font_size = round(22 * self.scale_factor)
         combobox_height = round(40 * self.scale_factor)
         main_background_png = "main_background.png"
-
+        app_path = os.path.dirname(sys.argv[0]).replace("\\",'/')
+        if (app_path == ''):
+          app_path = '.'
         if not self.g2_stylesheet:
             self.g2_stylesheet = f"""
 
@@ -46,15 +53,15 @@ class ConverterApplication(QApplication):
             }}
     
             QWidget#centralwidget {{
-                border-image: url("assets/g2/desktop/{main_background_png}");
+                border-image: url("{app_path}/assets/g2/desktop/{main_background_png}");
             }} 
             
             QDialog {{
-                background-image: url("assets/g2/desktop/background-viewer.png");
+                background-image: url("{app_path}/assets/g2/desktop/background-viewer.png");
             }}
             
             QWidget#MainWindow_centralwidget {{
-                background-image: url("assets/g2/desktop/{main_background_png}") 0 0 0 0;
+                background-image: url("{app_path}/assets/g2/desktop/{main_background_png}") 0 0 0 0;
                 background-repeat: no-repeat;
                 background-position: 0px;
                 background-origin: content;
@@ -73,7 +80,7 @@ class ConverterApplication(QApplication):
            
             QToolButton {{
                 background: transparent;
-                border-image: url("assets/g2/unique-button-states/toolbutton.png");
+                border-image: url("{app_path}/assets/g2/unique-button-states/toolbutton.png");
                 text-decoration: underline;
             }}
             
@@ -98,7 +105,7 @@ class ConverterApplication(QApplication):
             }}
             
             QComboBox {{
-                border-image: url("assets/g2/text-field-3d-effect.png") 0 0 0 0 stretch stretch;
+                border-image: url("{app_path}/assets/g2/text-field-3d-effect.png") 0 0 0 0 stretch stretch;
                 font: {general_font_size}px "Saira SemiBold";
                 border: transparent;
                 color: white;
@@ -138,12 +145,12 @@ class ConverterApplication(QApplication):
             }}
                         
             QCheckBox::indicator:checked {{
-                border-image: url(assets/g2/checkbox/button_check.png) 0 0 0 0 stretch stretch;
+                border-image: url("{app_path}/assets/g2/checkbox/button_check.png") 0 0 0 0 stretch stretch;
                 image: none;
             }}
 
             QCheckBox::indicator:unchecked {{
-                border-image: url(assets/g2/checkbox/button_uncheck.png) 0 0 0 0 stretch stretch;
+                border-image: url("{app_path}/assets/g2/checkbox/button_uncheck.png") 0 0 0 0 stretch stretch;
                 image: none;
                 
             }}
@@ -172,13 +179,13 @@ class ConverterApplication(QApplication):
              QSpinBox::up-button, QDoubleSpinBox::up-button {{
                  subcontrol-position: center right;
                   margin-right: 2px;
-                 border-image: url(assets/g2/spinbox/spinbox-right.png) 0 0 0 0 stretch stretch;
+                 border-image: url("{app_path}/assets/g2/spinbox/spinbox-right.png") 0 0 0 0 stretch stretch;
              }}
 
              QSpinBox::down-button, QDoubleSpinBox::down-button {{
                   subcontrol-position: center left;
                   margin-left:2px;
-                  border-image: url(assets/g2/spinbox/spinbox-left.png) 0 0 0 0 stretch stretch;
+                  border-image: url("{app_path}/assets/g2/spinbox/spinbox-left.png") 0 0 0 0 stretch stretch;
              }}
             
             QSpinBox::down-arrow, QSpinBox::up-arrow, QDoubleSpinBox::down-arrow, 
@@ -228,14 +235,14 @@ class ConverterApplication(QApplication):
             }}
             
             QPushButton {{
-                background-image: url("assets/g2/button-states/back.png");
+                background-image: url("{app_path}/assets/g2/button-states/back.png");
                 border: 2px solid #181818;
                 border-radius: 10px;
                 font: 14px "Saira SemiBold";
             }}
 
             QPushButton#btnClose {{
-                background-image: url("assets/g2/button-states/back.png") 0 0 0 0 stretch stretch;
+                background-image: url("{app_path}/assets/g2/button-states/back.png") 0 0 0 0 stretch stretch;
                 border: 2px solid #181818;
             }}
             
@@ -310,13 +317,13 @@ class ConverterApplication(QApplication):
             QProgressBar#prgImagesProcessed::chunk {{
                 border-radius: 3px;
                 background: transparent;
-                background-image: url("assets/g2/GreenProgressBar.png");
+                background-image: url("{app_path}/assets/g2/GreenProgressBar.png");
             }}
 
             QProgressBar#prgTargetsHit::chunk {{
                 border-radius: 3px;
                 background: transparent;
-                background-image: url("assets/g2/RedProgressBar.png");
+                background-image: url("{app_path}/assets/g2/RedProgressBar.png");
             }}
             
             QListWidget::item::selected {{
@@ -554,7 +561,7 @@ class ConverterApplication(QApplication):
             }}
 
             QComboBox::down-arrow {{
-                image: url("assets/g2/unique-button-states/combobox-arrow.png");
+                image: url("{app_path}/assets/g2/unique-button-states/combobox-arrow.png");
                 width: {combobox_height}px;
                 height: {combobox_height}px;
                 padding-right: {int(combobox_height/2)+10}px;

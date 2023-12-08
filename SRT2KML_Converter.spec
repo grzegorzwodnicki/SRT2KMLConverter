@@ -8,11 +8,7 @@ a = Analysis(['SRT2KMLConverter.py'],
              hiddenimports=[
                     'sip',
              ],
-             datas=[
-                ('assets', 'assets'),
-                ('assets/g2', 'assets/g2')
-
-            ],
+             
              hookspath=None,
              runtime_hooks=[],
              excludes=[
@@ -34,12 +30,12 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='SRT/KML Converter',
+          name='SRT2KML Converter',
           key='fWexFwr9PwelDsgn',
           debug=False,
           strip=False,
           manifest=None,
-          icon='ui/assets/g2/usr.ico',
+          icon='assets/g2/logo.ico',
           bootloader_ignore_signals=False,
           upx=True,
           console=False,

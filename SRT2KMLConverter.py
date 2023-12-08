@@ -1,5 +1,9 @@
 from PySide2.QtWidgets import QFileDialog, QApplication, QMainWindow, QMessageBox
 from PySide2.QtCore import Qt
+from PySide2.QtGui import QPixmap, QIcon
+from PySide2.QtCore import QSize
+
+
 import sys
 from classes.Application import ConverterApplication
 from ui.SRT2KMLConverter import Ui_SRT2KMLConverter
@@ -10,6 +14,7 @@ from constants import *
 from classes.ConverterEngine import SRT2KMLConverterEngine
 import threading
 from version import Version as V
+#TODO link fix
 
 V.PROJECT_NAME = "SRT/KML Converter"
 V.PROJECT_VERSION = "1.01"
@@ -25,6 +30,18 @@ class SRT2KMLConverter(QMainWindow):
         self.converter = SRT2KMLConverterEngine(self.progress)
         self.ui = Ui_SRT2KMLConverter()
         self.ui.setupUi(self)
+        
+        self.ui.lblLogo.setPixmap(QPixmap(u"assets:assets/g2/usr.png"))
+        icon = QIcon()
+        icon.addFile(u"assets:assets/cross.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.ui.btnClose.setIcon(icon)
+        icon1 = QIcon()
+        icon1.addFile(u"assets:assets/folder2.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.ui.btnChooseSource.setIcon(icon1)
+        self.ui.btnChooseSource.setIconSize(QSize(15, 15))
+        self.ui.btnChooseOutput.setIcon(icon1)
+        self.ui.btnChooseOutput.setIconSize(QSize(15, 15))   
+            
         self.setWindowFlag(Qt.FramelessWindowHint, True)
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.config = SettingsClass(
@@ -40,7 +57,7 @@ class SRT2KMLConverter(QMainWindow):
             self.ui.btnGPX: DRONE_FORMAT_GPX,
             self.ui.btnJSON: DRONE_FORMAT_JSON,
         }
-        
+        self.ui.toolButton.clicked.connect(self.toolButton)
         self.all_types = list(self.buttons_extensions_dict.values())
         
         self.loadSettings()
@@ -51,6 +68,8 @@ class SRT2KMLConverter(QMainWindow):
         self.ui.btnStart.clicked.connect(self.start)
         self.ui.btnClose.clicked.connect(self.close)
         self.ui.lblVersion.setText('Ver. '+V.PROJECT_VERSION)
+    def toolButton(self):
+        os.system(f"start https://www.usri.ca/")
     def closeEvent(self, event):
         self.config.config_output_path = self.ui.txtOutputFile.text()
         self.config.config_input_path = self.ui.txtSource.text()
@@ -233,6 +252,8 @@ class SRT2KMLConverter(QMainWindow):
 
 
 if __name__ == "__main__":
+
+
     app = ConverterApplication(sys.argv)
     w = SRT2KMLConverter()
     w.show()

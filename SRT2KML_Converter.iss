@@ -9,42 +9,46 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{AE61073F-3D89-432C-9D9B-EE7C2C13C756}
 AppName=SRT/KML Converter
-AppVersion=1.10
+AppVersion=1.01
 AppPublisher=USRI
 DefaultDirName={commonpf}\SRT2KML Converter\
-DefaultGroupName=SRT/KML Converter
+DefaultGroupName=SRT KML Converter
 AllowNoIcons=yes
 OutputBaseFilename=SRT2KMLConverter-1.01
 Compression=lzma
 SolidCompression=yes
 DisableDirPage=no
 ArchitecturesInstallIn64BitMode=
-LicenseFile=SRT2KML Converter eula.txt
+;LicenseFile=SRT KML Converter eula.txt
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: "dist-win32\SRT2KML Converter\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "ui\assets\Audiowide-Regular.ttf"; DestDir: "{autofonts}"; FontInstall: "Audiowide Regular"; Flags: onlyifdoesntexist;
-Source: "ui\assets\Saira-SemiBold.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira SemiBold"; Flags: onlyifdoesntexist;
-Source: "ui\assets\Saira-ExtraBold.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira ExtraBold"; Flags: onlyifdoesntexist;
-Source: "ui\assets\Saira-Medium.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira Medium"; Flags: onlyifdoesntexist;
+Source: "dist\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ui\assets\*"; DestDir: "{app}\assets"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+;Source: "ui\assets\Audiowide-Regular.ttf"; DestDir: "{autofonts}"; FontInstall: "Audiowide Regular"; Flags: onlyifdoesntexist;
+;Source: "ui\assets\Saira-SemiBold.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira SemiBold"; Flags: onlyifdoesntexist;
+;Source: "ui\assets\Saira-ExtraBold.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira ExtraBold"; Flags: onlyifdoesntexist;
+;Source: "ui\assets\Saira-Medium.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira Medium"; Flags: onlyifdoesntexist;
+;Source: "ui\assets\Saira-Medium.ttf"; DestDir: "{autofonts}"; FontInstall: "Saira Medium"; Flags: onlyifdoesntexist;
+
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{group}\SARTopo KML Converter"; Filename: "{app}\SARTopo KML Converter.exe"
+Name: "{group}\SRT KML Converter"; Filename: "{app}\SRT2KML Converter.exe"
 Name: "{group}\{cm:UninstallProgram,SARTopo KML Converter}"; Filename: "{uninstallexe}"
-Name: "{commondesktop}\SARTopo KML Converter"; Filename: "{app}\SARTopo KML Converter.exe"; Tasks: desktopicon
+Name: "{commondesktop}\SRT KML Converter"; Filename: "{app}\SRT2KML Converter.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\SARTopo KML Converter.exe"; Description: "{cm:LaunchProgram,SARTopo KML Converter}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\SRT2KML Converter.exe"; Description: "{cm:LaunchProgram,SRT KML Converter}"; Flags: nowait postinstall skipifsilent
 
 [InstallDelete]
 Type: filesandordirs; name: "{app}\cryptography"
 
 [Setup]
-UninstallDisplayIcon={app}\SARTopo KML Converter.exe
+UninstallDisplayIcon={app}\SRT2KML Converter.exe
 
 [Registry]
-Root: HKCU; Subkey: "Software\USRI\SARTopo KML Converter\scale_factor"; ValueType: string; ValueData: "1.0"
+Root: HKCU; Subkey: "Software\USRI\SRT2KML Converter\scale_factor"; ValueType: string; ValueData: "1.0"
